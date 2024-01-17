@@ -1,0 +1,44 @@
+
+RFID Reader Project using LPC2138 ARM Microcontroller
+Project Description
+The RFID Reader Project using LPC2138 ARM Microcontroller is an advanced solution that not only reads RFID tags but also allows users to add new employee data and delete previous employee data using an external keypad and UART1 communication. This project is designed to provide a comprehensive employee management system with seamless integration capabilities.
+Key Features
+•	LPC2138 ARM Controller: Utilizing the LPC2138 microcontroller for robust and reliable performance.
+•	RFID Module Integration: Seamless integration with RFID modules for reading and processing RFID tags.
+•	UART Communication: RFID data is communicated with the LPC2138 ARM Controller through UART for efficient data transfer. UART1 is dedicated to external devices such as keypads.
+•	Keypad Integration: The project supports external keypads for user input, enabling the addition and deletion of employee data.
+•	Configurable Parameters: Users can configure parameters such as baud rate, read power, and tag filtering to suit specific application requirements.
+•	Employee Data Management: Allows the addition of new employee data through UART1 and the keypad. Existing employee data can also be deleted using the keypad.
+•	Simple Interface: The project provides a user-friendly interface for interacting with the RFID reader and managing employee data.
+Hardware Requirements
+•	LPC2138 ARM Controller
+•	RFID Module (compatible with LPC2138)
+•	20x4 Alphanumeric LCD Display
+•	Keypad (for employee data input and deletion)
+•	UART1 connected external peripheral device (for employee data input and deletion)
+•	Power Supply
+•	Jumper wires 
+  
+Software Requirements
+•	ARM Keil IDE for LPC2138 development
+•	RFID library for LPC2138
+•	Keypad library for LPC2138
+•	Serial communication terminal (e.g., UART)
+Installation and Usage
+1.	Setup Hardware:
+•	Connect the RFID module to the LPC2138 ARM Controller using jumper wires.
+•	Connect the keypad and Display on the LPC2138.
+•	Connect the terminal to UART on the LPC2138.
+•	Power the system using a suitable power supply.
+•	Connect the antenna to the RFID module.
+2.	Compile and Flash:
+•	Open the project in the ARM Keil IDE.
+•	Compile the source code and flash it onto the LPC2138 microcontroller.
+3.	Run the Application:
+•	Power on the system.
+•	Use the keypad and serial communication terminal to interact with the RFID reader.
+•	Add new employee data or delete existing employee data using the keypad.
+4.	Integration:
+•	Integrate the RFID reader project into your application by adapting the provided code.
+•	Implement additional features or customize as needed for your specific use case.
+
